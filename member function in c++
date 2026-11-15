@@ -1,0 +1,51 @@
+#include <iostream>
+using namespace std;
+class laptop
+{
+  public:
+  string name;
+  int prisce;
+  int generation;
+
+    /*
+ member function
+
+cout دى دالة بتكتب فيها ال
+
+بتاعت ال object بدل
+
+م تكتب  cout كل مرة
+
+
+    */
+  void print()
+  {
+      cout<<"name: "<<name<<endl;
+      cout<<"prisce: "<<prisce<<endl;
+      cout<<"generation: "<<generation<<endl;
+
+  }
+
+
+
+
+
+};
+int main()
+{
+  laptop l1;
+  laptop l2;
+
+  l1.name="dell";
+  l1.prisce=24800;
+  l1.generation=11;
+  cout<<"laptop 1 "<<endl;
+  l1.print();
+
+l2.name="hp";
+  l2.prisce=20000;
+  l2.generation=10;
+cout<<"laptop 2 "<<endl;
+ l2.print();
+    return 0;
+}
