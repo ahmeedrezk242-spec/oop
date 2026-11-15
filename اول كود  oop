@@ -1,0 +1,51 @@
+#include <iostream>
+using namespace std;
+class student
+{
+  public:
+      string name;
+      int age;
+      int gpa;
+
+
+
+
+};
+int main()
+{
+student a1;
+student a2;
+student a3;
+
+  a1.name="ahmed rezk abdellah";
+  a1.age= 20;
+  a1.gpa= 4;
+
+  cout<<"the name a1: "<<a1.name<<endl;
+   cout<<"the age a1: "<<a1.age<<endl;
+    cout<<"the name a1: "<<a1.gpa<<endl;
+        cout<<"-------------------"<<endl;
+     a2.name="mohamed rezk abdellah";
+  a2.age= 19;
+  a2.gpa= 4;
+
+  cout<<"the name a2: "<<a2.name<<endl;
+   cout<<"the age a2: "<<a2.age<<endl;
+    cout<<"the name a2: "<<a2.gpa<<endl;
+
+
+        cout<<"-------------------"<<endl;
+     a3.name="mahmoud rezk abdellah";
+  a3.age= 15;
+  a3.gpa= 4;
+
+  cout<<"the name a3: "<<a3.name<<endl;
+   cout<<"the age a3: "<<a3.age<<endl;
+    cout<<"the name a3: "<<a3.gpa<<endl;
+
+
+
+
+
+    return 0;
+}
