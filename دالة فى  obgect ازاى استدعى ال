@@ -1,0 +1,40 @@
+#include <iostream>
+using namespace std;
+class YT
+{
+public:
+    string name;
+
+                        /*من اوبجيكت فيها استقبل عشان  x حاطط
+
+    لدالة قوس داخل تحت هكتبهم  انا اللى ا*/
+
+     void print(YT x)
+     {
+
+
+
+        cout<<"name is :"<<x.name<<endl;
+    }
+
+
+
+
+};
+
+int main()
+{
+    YT ob1;
+    YT ob2;
+    ob1.name="ahmed";
+    ob2.name="mohamed";
+  
+
+/* مش المهم اوبجيكت انهى قدام الدالة المهم هكتب  م
+اى بتاعها القوس جوة هكتب*/
+
+    ob2.print(ob1);
+    ob2.print(ob2);
+    return 0;
+}
+
