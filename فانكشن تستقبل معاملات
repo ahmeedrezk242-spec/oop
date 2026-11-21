@@ -1,0 +1,49 @@
+#include <iostream>
+using namespace std;
+class company
+{
+public:
+    int id;
+    string name;
+    int salary;
+
+    void save(int i,string n,int sal)
+    //ob1.save(12."ahmed",1222)
+    //id=12    //name="ahmed"  //salary=12222
+    //(المتغيرات لتخزين )
+    {
+      id=i;
+      name=n;
+      salary=sal;
+    }
+
+
+    void print()
+    {
+        cout<<"id = "<<id<<endl;
+        cout<<"name = "<<name<<endl;
+        cout<<"salary = "<<salary<<endl;
+    }
+
+
+
+
+
+};
+int main()
+{
+    company ob1;
+    company ob2;
+    cout<<"company 1 :"<<endl;
+    ob1.save(30705022700691,"ahmed rezk",10000);
+    ob1.print();
+
+   cout<<"*******************************************\n";
+
+     cout<<"company 2 :"<<endl;
+    ob2.save(30705022700888,"mohamed rezk",20000);
+    ob2.print();
+
+
+    return 0;
+}
