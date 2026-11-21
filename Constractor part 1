@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+class Book
+{
+public:
+    int page;
+    string name;
+
+   //constractor
+    Book()
+    {
+        cout<<"hello the new constructur"<<endl;
+
+    }
+     void print()
+     {
+
+       cout<<"hello the new function "<<endl;
+        cout<<"page  "<<page<<endl;
+        cout<<"name   "<<name<<endl;
+
+
+     }
+
+
+
+
+
+};
+int main()
+{
+Book ob1;
+  Book ob2;
+  Book ob3;
+  ob1.name="hello";
+  ob1.page=100;
+  ob2.name="aaaaa";
+  ob2.page=200;
+  ob3.name="cccccc";
+  ob3.page=300;
+
+  ob1.print();
+  ob2.print();
+  ob3.print();
+    return 0;
+}
