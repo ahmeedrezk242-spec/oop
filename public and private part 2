@@ -50,12 +50,12 @@ class circle
 private:
     float redius;
 public:
-    void set()
+    void setvalue()
     {
         cout<<"enter to redius : ";
         cin>>redius;
     }
-    void print()
+    void printarea()
     {
         double area;
         area=3.14*redius*redius;
