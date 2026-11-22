@@ -59,7 +59,7 @@ public:
     {
         double area;
         area=3.14*redius*redius;
-        cout<<"arae is  = "<<3.14*redius*redius<<endl;
+        cout<<"arae is  = "<<area<<endl;
     }
 };
 int main()
