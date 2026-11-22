@@ -1,0 +1,74 @@
+#include <iostream>
+using namespace std;
+class company
+{
+private:
+    string name;
+    int id;
+    int salary;
+public:
+   void set()
+    {
+        cout<<"enter to name : ";
+        cin>>name;
+        cout<<"enter to id : ";
+        cin>>id;
+        cout<<"enter to salary : ";
+        cin>>salary;
+    }
+   void print()
+   {
+       cout<<"name is a : "<<name<<endl;
+       cout<<"id is a : "<<id<<endl;
+       cout<<"salary is a : "<<salary<<endl;
+   }
+
+
+
+
+
+};
+int main()
+{
+    company ob1;
+    ob1.set();
+    ob1.print();
+
+    return 0;
+}
+
+
+//*******************************************************************************************************************
+//example 1:
+
+
+
+#include <iostream>
+using namespace std;
+class circle
+{
+private:
+    float redius;
+public:
+    void set()
+    {
+        cout<<"enter to redius : ";
+        cin>>redius;
+    }
+    void print()
+    {
+        cout<<"arae is  = "<<3.14*redius*redius<<endl;
+    }
+};
+int main()
+{
+    circle ob1;
+    ob1.set();
+    ob1.print();
+
+    return 0;
+}
+
+
+
+
