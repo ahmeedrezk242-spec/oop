@@ -36,3 +36,37 @@ int main()
 
     return 0;
 }
+//***************************************************************************************************************************************************
+
+#include <iostream>
+using namespace std;
+class youtube
+{
+private:
+    string name;
+    int sub;
+    int videos;
+
+public:
+    void add(string n,int s,int v)
+    {
+        name=n;
+        sub=s;
+        videos=v;
+    }
+    void print()
+    {
+        cout<<"name is the : "<<name<<endl;
+        cout<<"sub is the : "<<sub<<endl;
+        cout<<"videos is the : "<<videos<<endl;
+    }
+
+
+};
+int main()
+{
+   youtube ob1;
+   ob1.add("ahmed sports",10000000,150);
+   ob1.print();
+    return 0;
+}
