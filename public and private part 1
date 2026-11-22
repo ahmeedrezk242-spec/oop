@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+class company
+{
+private:
+    string name;
+    int id;
+    int salary;
+
+public:
+
+    void add(string n,int i,int sal)
+    {
+     name=n;
+     id=i;
+     salary=sal;
+
+
+    }
+    void print()
+    {
+        cout<<"name is a : "<<name<<endl;
+        cout<<"id is a : "<<id<<endl;
+        cout<<"salary is a : "<<salary<<endl;
+    }
+
+
+
+
+};
+int main()
+{
+    company ob1;
+    ob1.add("ahmed",12345,100000);
+    ob1.print();
+
+    return 0;
+}
