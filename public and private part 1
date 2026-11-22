@@ -48,7 +48,7 @@ private:
     int videos;
 
 public:
-    void add(string n,int s,int v)
+    void set(string n,int s,int v)
     {
         name=n;
         sub=s;
@@ -66,7 +66,7 @@ public:
 int main()
 {
    youtube ob1;
-   ob1.add("ahmed sports",10000000,150);
+   ob1.set("ahmed sports",10000000,150);
    ob1.print();
     return 0;
 }
