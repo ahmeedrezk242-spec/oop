@@ -1,0 +1,115 @@
+#include<iostream>
+using namespace std;
+class company
+{
+
+private:
+    string name;
+    int salary;
+
+
+public:
+
+    void setvalue()
+    {
+        cout<<"enter to name : ";
+        cin>>name;
+        cout<<"enter to salray : ";
+        cin>>salary;
+    }
+
+
+   void print()
+   {
+
+       cout<<"name is : "<<name<<endl;
+       cout<<"salary is : "<<salary<<endl;
+   }
+   void getname()
+   {
+       cout<<"name is:  "<<name<<endl;
+   }
+
+
+};
+int main()
+{
+  company ob1;
+  company ob2;
+  ob1.setvalue();
+  ob1.print();
+
+ob2.setvalue();
+  ob2.print();
+   ob1.getname();
+   ob2.getname();
+
+
+
+
+
+
+
+    return 0;
+}
+
+
+//*****************************************************************************************************************************************************
+//example 1
+
+#include<iostream>
+using namespace std;
+class company
+{
+
+private:
+    string name;
+    int salary;
+
+
+public:
+
+    void setvalue()
+    {
+        cout<<"enter to name : ";
+        cin>>name;
+
+        cout<<"enter to salray : ";
+        cin>>salary;
+    }
+
+
+   void print()
+   {
+
+      cout<<"name is : "<<name<<endl;
+       cout<<"salary is : "<<salary<<endl;
+   }
+   void getname()
+   {
+       cout<<"name is:  "<<name<<endl;
+   }
+  int getsalary()
+   {
+       return salary;
+   }
+
+
+};
+int main()
+{
+  company ob1;
+  company ob2;
+  ob1.setvalue();
+  ob2.setvalue();
+  ob1.print();
+  ob2.print();
+  cout<<"salray ob1+salary ob2 = "<<ob1.getsalary()+ob2.getsalary()<<endl;
+
+
+    return 0;
+}
+
+
+
+
