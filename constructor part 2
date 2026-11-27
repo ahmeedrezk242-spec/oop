@@ -1,0 +1,67 @@
+#include <iostream>
+using namespace std;
+class test
+{
+ private:
+     int a;
+     int b;
+ public:
+    test()
+    {
+        cout<<"welcome to in constructor"<<endl;
+    }
+   void set()
+   {
+       a=10;
+       b=30;
+   }
+    void show()
+    {
+        cout<<"A = "<<a<<endl;
+         cout<<"B = "<<b<<endl;
+    }
+
+};
+int main()
+{
+   test x;
+   x.set();
+   x.show();
+   test y;
+    x.set();
+    x.show();
+    return 0;
+}
+//**********************************************
+/*#include <iostream>
+using namespace std;
+class test
+{
+ private:
+     int a;
+     int b;
+ public:
+
+   test()
+   {
+       a=10;
+       b=30;
+   }
+    void show()
+    {
+        cout<<"A = "<<a<<endl;
+         cout<<"B = "<<b<<endl;
+    }
+
+};
+int main()
+{
+   test x;
+
+   x.show();
+   test y;
+
+    x.show();
+    return 0;
+}*/
+//*****************************
