@@ -1,0 +1,85 @@
+/*#include<iostream>
+using namespace std;
+class test
+{
+private:
+    int a;
+    int b;
+public:
+    void set(int x,int y)
+    {
+        a=x;
+        b=y;
+
+    }
+    void show()
+    {
+        cout<<"A = "<<a<<endl;
+         cout<<"B = "<<b<<endl;
+    }
+
+
+};
+int main()
+{
+ test x;
+ x.set(5,6);
+ x.show();
+
+return 0;
+
+}*/
+
+//************************************************************
+
+#include<iostream>
+using namespace std;
+class test
+{
+private:
+    int a;
+    int b;
+public:
+    test()
+    {
+        cout<<"iam defualt constructor"<<endl;
+    }
+    test(int x,int y)
+    {
+        cout<<"iam parameterized constractot"<<endl ;
+
+
+        a=x;
+        b=y;
+
+    }
+    void show()
+    {
+        cout<<"A = "<<a<<endl;
+         cout<<"B = "<<b<<endl;
+    }
+
+
+};
+int main()
+{
+
+     test ob1(6,7);
+
+     ob1.show();
+
+      test ob2(145,150);
+
+     ob2.show();
+
+      test ob3;
+
+
+
+
+return 0;
+
+}
+
+
+
