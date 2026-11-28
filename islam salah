@@ -1,0 +1,88 @@
+#include <iostream>
+using namespace std;
+class school
+{
+private:
+    string name;
+    int level;
+    int id;
+
+public:
+
+    void set(string n,int l)
+    {
+        name=n;
+        level=l;
+        cout<<"name is a : "<<name<<endl;
+        cout<<"level is a : "<<level<<endl;
+
+    };
+
+    void set(int i)
+    {
+        id=i;
+
+        cout<<"id is a : "<<id<<endl;
+
+    };
+
+
+};
+int main()
+{
+    school x;
+    school y;
+    x.set("ahmed",500);
+    x.set(500);
+    x.set("ahmed",500);
+    x.set(500);
+    return 0;
+}
+
+//****************************************************************;
+
+/*#include <iostream>
+using namespace std;
+class school
+{
+private:
+    string name;
+    int level;
+    int id;
+
+public:
+
+    void set(string n,int l);
+
+
+    void set(int i);
+
+
+};
+ void school:: set(string n,int l)
+    {
+        name=n;
+        level=l;
+        cout<<"name is a : "<<name<<endl;
+        cout<<"level is a : "<<level<<endl;
+
+    };
+   void school:: set(int i)
+    {
+        id=i;
+
+        cout<<"id is a : "<<id<<endl;
+
+    };
+
+
+int main()
+{
+    school x;
+    school y;
+    x.set("ahmed",500);
+    x.set(500);
+    x.set("ahmed",500);
+    x.set(500);
+    return 0;
+}*/
